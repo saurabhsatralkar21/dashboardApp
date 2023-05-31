@@ -1,0 +1,36 @@
+.navbar {
+    height: 50px;
+    border-bottom:  0.4px solid rgb(238, 231, 231);
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+    color: #555;
+
+    .wrapper {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        padding: 20px;
+        justify-content: space-between;
+        
+        .items {
+            display: flex;
+            align-items: center;
+            width: 50px;
+            height: 35px;
+            -webkit-box-shadow: 5px 5px 22px 0px rgba(0,129,201,0.24);
+            -moz-box-shadow: 5px 5px 22px 0px rgba(0,129,201,0.24);
+            box-shadow: 5px 5px 22px 0px rgba(0,129,201,0.24);
+            border-radius: 30%;
+            cursor: pointer;
+
+            .item{
+                display: flex;
+                margin: auto;
+                .icon {
+                    font-size: 25px;
+                };
+            }
+        }
+    }
+}

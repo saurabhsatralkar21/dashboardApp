@@ -1,0 +1,89 @@
+.sideBar {
+    
+    flex: 1;
+    border-right: 0.4px solid rgb(238, 231, 231);
+    min-height: 100vh;
+    background-color: white;
+
+    .top {
+        height: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        .logo {
+            font-size: 20px;
+            font-weight: 600;
+            color: #2C74B3;
+        }
+    }
+
+    hr {
+        height: 0;
+        border: 0.4px solid rgb(238, 231, 231);
+    }
+    
+    .center {
+        padding-left: 10px;
+
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+
+            .title{
+                font-size: 12px;
+                font-weight: bold;
+                margin-top: 1rem;
+                padding-left: 1rem;
+                color: #20262E;
+            }
+
+            li {
+                display: flex;
+                align-items: center;
+                padding: 1.5rem 1rem;
+                cursor: pointer;
+                &:hover{
+                    background-color: #ece8ff;
+                }
+            }
+
+            .icon {
+                font-size: 25px;
+                color: #2C74B3;
+            }
+
+            span {
+                font-size: 18px;
+                padding-left: 8px;
+                color: #20262E;
+            }
+
+        }
+
+    }
+
+    .bottom {
+        display: flex;
+        align-items: center;
+        margin: 10px;
+
+        .colorOption {
+            width: 20px;
+            height: 20px;
+            border-radius: 5px;
+            border: 1px solid #7451f8;
+            cursor: pointer;
+            margin-left: 15px;
+
+            &:nth-child(1){
+                background-color: whitesmoke;
+            }
+            &:nth-child(2){
+                background-color: #333;
+            }
+        }
+    }
+
+}

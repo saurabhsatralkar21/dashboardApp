@@ -1,0 +1,70 @@
+.app.dark {
+    background-color: #000000;
+    color: #F7F7F7;
+    
+
+    .counter {
+        color: #F7F7F7;
+    }
+
+    .navbar {
+        color: #999;
+        border-color: #333;
+
+        .icon {
+            color: #F7F7F7;
+        }
+
+        .item {
+            -webkit-box-shadow: 13px 2px 24px -12px rgba(0,129,201,0.24);
+        -moz-box-shadow: 13px 2px 24px -12px rgba(0,129,201,0.24);
+        box-shadow: 13px 2px 24px -12px rgba(0,129,201,0.24);
+        }
+    }
+
+    .sideBar {
+        background-color: #000000;
+        border-color: #333;
+       
+
+        .top {
+            .logo {
+                color: #F7F7F7;
+            }
+        }
+
+        hr{
+            border-color: #333;
+        }
+
+        ul {
+            
+            li {
+                
+                &:hover {
+                    background-color: #333;
+                }
+
+                .icon {
+                    color: #F7F7F7;
+                }
+
+                span {
+                    color: #F7F7F7;
+                }
+            }
+
+            .title{
+                color: #F7F7F7;
+            }
+        }
+
+    }
+
+    .widget {
+        -webkit-box-shadow: 13px 2px 24px -12px rgba(0,129,201,0.24);
+        -moz-box-shadow: 13px 2px 24px -12px rgba(0,129,201,0.24);
+        box-shadow: 13px 2px 24px -12px rgba(0,129,201,0.24);
+    }
+
+}
